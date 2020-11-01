@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{mask:url(#mask0_1_);}
+	.st2{fill:#0065A9;}
+	.st3{fill:#007ACC;}
+	.st4{fill:#1F9CF0;}
+	.st5{opacity:0.25;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st7{font-family:'Noteworthy-Light';}
+	.st8{font-size:44.4071px;}
+</style>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="24.8" y="46.7" width="206.2" height="204.7">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="24.8" y="46.7" width="206.2" height="204.7" id="mask0_1_">
+	<path class="st0" d="M171.1,250.5c3.2,1.3,6.9,1.2,10.2-0.4l42.4-20.4c4.5-2.1,7.3-6.6,7.3-11.6V79.9c0-4.9-2.8-9.4-7.3-11.6
+		l-42.4-20.4c-4.3-2.1-9.3-1.6-13.1,1.2c-0.5,0.4-1.1,0.8-1.5,1.3l-81.2,74L50.1,97.6c-3.3-2.5-7.9-2.3-11,0.5l-11.3,10.3
+		c-3.7,3.4-3.7,9.3,0,12.7L58.4,149l-30.7,27.9c-3.7,3.4-3.7,9.3,0,12.7l11.3,10.3c3.1,2.8,7.7,3,11,0.5l35.4-26.8l81.2,74
+		C167.9,248.9,169.4,249.8,171.1,250.5z M179.5,102.3L117.9,149l61.6,46.7V102.3z"/>
+</mask>
+<g class="st1">
+	<path class="st2" d="M223.7,68.3l-42.5-20.4c-4.9-2.4-10.8-1.4-14.6,2.5l-139,126.5c-3.7,3.4-3.7,9.3,0,12.7L39,199.9
+		c3.1,2.8,7.7,3,11,0.5L217.3,73.6c5.6-4.3,13.7-0.3,13.7,6.8v-0.5C231,75,228.2,70.5,223.7,68.3z"/>
+	<g>
+		<path class="st3" d="M223.7,229.7l-42.5,20.4c-4.9,2.4-10.8,1.4-14.6-2.5l-139-126.5c-3.7-3.4-3.7-9.3,0-12.7L39,98.1
+			c3.1-2.8,7.7-3,11-0.5l167.4,126.8c5.6,4.3,13.7,0.3,13.7-6.8v0.5C231,223,228.2,227.5,223.7,229.7z"/>
+	</g>
+	<g>
+		<path class="st4" d="M181.3,250.1c-4.9,2.4-10.8,1.4-14.6-2.5c4.8,4.7,12.9,1.4,12.9-5.3V55.7c0-6.7-8.1-10.1-12.9-5.3
+			c3.9-3.9,9.7-4.8,14.6-2.5l42.4,20.4c4.5,2.1,7.3,6.6,7.3,11.6v138.2c0,4.9-2.8,9.4-7.3,11.6L181.3,250.1z"/>
+	</g>
+	<g class="st5">
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="127.8591" y1="211.3401" x2="127.8591" y2="6.6598" gradientTransform="matrix(1 0 0 -1 0 258)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		</linearGradient>
+		<path class="st6" d="M170.9,250.5c3.2,1.3,6.9,1.2,10.2-0.4l42.4-20.4c4.5-2.1,7.3-6.6,7.3-11.6V79.9c0-4.9-2.8-9.4-7.3-11.6
+			l-42.4-20.4c-4.3-2.1-9.3-1.6-13.1,1.2c-0.5,0.4-1.1,0.8-1.5,1.3l-81.2,74L50,97.6c-3.3-2.5-7.9-2.3-11,0.5l-11.3,10.3
+			c-3.7,3.4-3.7,9.3,0,12.7L58.3,149l-30.7,27.9c-3.7,3.4-3.7,9.3,0,12.7L39,199.9c3.1,2.8,7.7,3,11,0.5l35.4-26.8l81.2,74
+			C167.8,248.9,169.3,249.8,170.9,250.5z M179.4,102.3L117.8,149l61.6,46.7V102.3z"/>
+	</g>
+</g>
+<text transform="matrix(1.4834 0 0 1 47.0005 54.8496)" class="st7 st8">VS</text>
+</svg>
