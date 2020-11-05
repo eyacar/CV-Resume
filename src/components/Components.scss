@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 
 $w20: 20%;
@@ -39,7 +40,7 @@ h2{margin-left: 2%;}
 }
 
 .contact{ margin:2% auto; width: 30%; animation-duration: 2s; animation-name: exp; form{ width: 100%; text-align: center; input{display: block;margin: 2% auto;}}}
-.contact *{font-family: 'Grandstander', cursive; font-size: 18px; font-weight: bolder;}
+.contact *{font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: bolder;}
 }
 
 @media (min-height:1000px){
