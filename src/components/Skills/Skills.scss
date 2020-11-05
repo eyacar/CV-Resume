@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 @mixin cero {
     margin: 0 !important;;
@@ -7,7 +8,7 @@
 
 // To take off the margin, the padding and the font pre setted value on the Material Ui Style sheet 
 .StyleSheet > div{@include cero;}
-.StyleSheet *{font-family: 'Grandstander', cursive !important; box-sizing: border-box;text-align: center; }   
+.StyleSheet *{font-family: 'Montserrat', sans-serif !important; box-sizing: border-box;text-align: center; }   
 //
 
 .head{text-decoration: underline;width: 100%;}
@@ -20,10 +21,10 @@
 
 .Pdark{border: 1px solid gray;}
 
-.img{width: 200px}
-.img1{width: 150px}
-.img2{width: 170px}
-.img3{width: 240px}
+.img{width: 180px}
+.img1{width: 130px}
+.img2{width: 150px}
+.img3{width: 220px}
 
 
 @media (max-width:600px){
