@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-#root{width: 100%;height: 100vh;font-family: 'Grandstander', cursive; overflow: hidden; }
+#root{width: 100%;height: 100vh;font-family: 'Montserrat', sans-serif; overflow: hidden; }
 
 #bar-navD{width: 100%;height: 50px;background-color:gray;position: absolute; display: flex; justify-content: space-around; 
   .switch{margin-top: 1%;}}
