@@ -34,9 +34,8 @@ export default function Projects(props) {
     AOS.refresh();
     });
   return (
-    <div >
-    <h1 className='head'>{props.Lang==='SP'?'Proyectos':'Projects'}</h1>
-    <div data-aos="flip-right" id='cards'>
+    <div className={props.darkP==='dark'?'AppD':"App"} >
+    <div data-aos="flip-right" id='cards' style={{margin:'2% auto', width:'80%'}}>
     <Card className={classes.root + ' Pdark'}>
       <CardActionArea >
         <CardMedia
@@ -74,7 +73,7 @@ export default function Projects(props) {
             App Template
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          {props.Lang==='SP'?'Modelo de App que realice, deploy con Heroku ':'App Template deployed with Heroku'}
+          {props.Lang==='SP'?'Modelo de App, deployed con Heroku ':'App Template deployed with Heroku'}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -128,7 +127,7 @@ export default function Projects(props) {
             App -- Currency Converter  
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          {props.Lang==='SP'?'Proyecto Proyecto casa de cambio (información obtenida Api dolar hoy), deploy con Vercel':'Currency Converter App deployed with Vercel'}
+          {props.Lang==='SP'?'Proyecto Proyecto casa de cambio (Api dolar hoy), deploy con Vercel':'Currency Converter App deployed with Vercel'}
           </Typography>
         </CardContent>
       </CardActionArea>

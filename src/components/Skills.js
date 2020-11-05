@@ -10,12 +10,10 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import DevicesOtherIcon from '@material-ui/icons/DevicesOther';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import LanguageIcon from '@material-ui/icons/Language';
 import Language from './Skills/Language'
 import Dev from './Skills/Developer'
 import Hobbies from './Skills/Hobbies'
-import Projects from './Skills/Projects'
 import {grey} from '@material-ui/core/colors';
 
 function TabPanel(props) {
@@ -61,7 +59,7 @@ export default function Skils(props) {
   };
   return (
     <div className={props.darkS==='dark'?'AppD':"App"}>
-    <Paper className={classes.root + ' Sdark'}>
+    <Paper className={classes.root + ' Sdark'} >
       <Tabs
         value={value}
         onChange={handleChange}
@@ -69,22 +67,18 @@ export default function Skils(props) {
         textColor="primary"
         centered
       >
-        <Tab icon={<DevicesOtherIcon style={props.darkS==='dark'?{ color: grey[100]}:null} />} {...a11yProps(0)}/>
-        <Tab icon={<BusinessCenterIcon style={props.darkS==='dark'?{ color: grey[100]}:null}/>} {...a11yProps(1)} />
-        <Tab icon={<LanguageIcon style={props.darkS==='dark'?{ color: grey[100]}:null}/>} {...a11yProps(2)} />
-        <Tab icon={<BeachAccessIcon style={props.darkS==='dark'?{ color: grey[100]}:null}/>} {...a11yProps(3)} />
+        <Tab style={{margin:'0 auto'}} icon={<DevicesOtherIcon style={props.darkS==='dark'?{ color: grey[100]}:null} />} {...a11yProps(0)}/>
+        <Tab style={{margin:'0 auto'}} icon={<LanguageIcon style={props.darkS==='dark'?{ color: grey[100]}:null}/>} {...a11yProps(1)} />
+        <Tab style={{margin:'0 auto'}} icon={<BeachAccessIcon style={props.darkS==='dark'?{ color: grey[100]}:null}/>} {...a11yProps(2)} />
       </Tabs>
     </Paper>
     <TabPanel className='StyleSheet' value={value} index={0}>
         <Dev dark={props.darkS==='dark'?true:null} Lang={props.Lang==='SP'?'SP':null}/>
       </TabPanel>
       <TabPanel className='StyleSheet' value={value} index={1}>
-       <Projects Lang={props.Lang==='SP'?'SP':null}/>
-      </TabPanel>
-      <TabPanel className='StyleSheet' value={value} index={2}>
       <Language Lang={props.Lang==='SP'?'SP':null}/> 
       </TabPanel>
-      <TabPanel className='StyleSheet' value={value} index={3}>
+      <TabPanel className='StyleSheet' value={value} index={2}>
         <Hobbies Lang={props.Lang==='SP'?'SP':null}/>
       </TabPanel>
       <div style={{width:'30%', height:'40px'}}></div>

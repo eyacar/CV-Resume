@@ -53,9 +53,10 @@ textarea{background-color: rgb(40, 39, 39) !important;color: white !important;}}
     .App{width: 80%;height: 75%;
     #information{width: 60%;}}
 }
-@media (max-height:518px){
-    .App{height: 40%;}
-}
+@media (max-height: 518px){
+.App {
+    height: 80%;
+}}
 @keyframes exp{
     from{opacity: 0;}
     to{opacity: 1;}

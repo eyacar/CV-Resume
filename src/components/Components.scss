@@ -46,9 +46,10 @@ h2{margin-left: 2%;}
     .App{width: 80%;height: 75%;
     #information{width: 60%;}}
 }
-@media (max-height:518px){
-    .App{height: 40%;}
-}
+@media (max-height: 518px){
+    .App {
+        height: 80%;
+    }}
 @keyframes exp{
     from{opacity: 0;}
     to{opacity: 1;}

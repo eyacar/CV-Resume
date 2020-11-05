@@ -9,6 +9,7 @@ import Resume from './components/Resume'
 import Work from './components/Work'
 import Skills from './components/Skills'
 import Educaction from './components/Education'
+import Projects from './components/Skills/Projects'
 import Contact from './components/Contact'
 import React, { useState } from 'react';
 import {grey} from '@material-ui/core/colors';
@@ -72,6 +73,7 @@ return(
 <Link to={'/Education'}><li>{lang==='SP'?'Educación':'Education'}</li></Link>
 <Link to={'/Job'}><li>{lang==='SP'?'Experiencia Laboral':'Work Experience'}</li></Link>
 <Link to={'/Skills'}><li>{lang==='SP'?'Aptitudes':'Skills'}</li></Link>
+<Link to={'/Projects'}><li>{lang==='SP'?'Proyectos':'Projects'}</li></Link>
 <Link to={'/Contact'}><li>{lang==='SP'?'Contacto':'Contact'}</li></Link>
 </ul>
 </div>
@@ -87,6 +89,7 @@ return(
 <Route path='/Education'><Header dark={dark===true?null:'dark'} title={lang==='SP'?'Educación':'Education'}/><Educaction darkE={dark===true?null:'dark'} Lang={lang==='SP'?'SP':null} /></Route>
 <Route path='/Job'><Header dark={dark===true?null:'dark'} title={lang==='SP'?'Experiencia Laboral':'Work Experience'}/><Work darkW={dark===true?null:'dark'} Lang={lang==='SP'?'SP':null}/></Route>
 <Route path='/Skills'><Header dark={dark===true?null:'dark'} title={lang==='SP'?'Aptitudes':'Skills'}/><Skills darkS={dark===true?null:'dark'} Lang={lang==='SP'?'SP':null}/></Route>
+<Route path='/Projects'><Header dark={dark===true?null:'dark'} title={lang==='SP'?'Proyectos':'Projects'}/><Projects darkP={dark===true?null:'dark'} Lang={lang==='SP'?'SP':null}/></Route>
 <Route path='/Contact'><Header dark={dark===true?null:'dark'} title={lang==='SP'?'Contáctame':'Contact me'}/><Contact darkC={dark===true?null:'dark'} Lang={lang==='SP'?'SP':null}/></Route>   
 </Switch>
 <Footer darkF={dark===true?null:'footerD'}/>
