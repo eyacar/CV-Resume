@@ -10,14 +10,14 @@ const Trabajos = [
 {Empresa:'Green Pixel',Cargo:'Desarrollador Front-End jr',Inicio:'03/17',Fin:'Actualidad',Tarea:'En un principio asistia de forma freelance al desarrollo web, maquetado, UI, Script. Luego me incorpore en relacion de dependencia y empecé a impulsar proyectos con un equipo, utilizando HTML5, CSS3 y JS (Ecma6). En la actualidad los proyectos los realizamos a través de frameworks como React Js. Con librerias como Bootstrap, Sweet Alert, Materials UI y etc. Deploy y hosteo de proyectos por CLI de Vercel y Heroku. Versionado de proyectos mediante Github.'},
 {Empresa:'Pro Insurance Solutions Ltd',Cargo:'Abogado consultor',Inicio:'03/20',Fin:'08/20',Tarea:'Coordinador del Area de legales - ART.'},
 {Empresa:'Estudio Juridico CEFER',Cargo:'Abogado Jr.',Inicio:'06/16',Fin:'03/20',Tarea:'Abogado Jr. en estudio dedicado al fuero Laboral - Civil - Comercial.'},
-{Empresa:'Jean Factory',Cargo:'Ventas',Inicio:'01/12',Fin:'03/20',Tarea:'Vendedor.'},
+{Empresa:'Jean Factory',Cargo:'Ventas',Inicio:'01/12',Fin:'05/16',Tarea:'Vendedor.'},
 {Empresa:'Jean Factory',Cargo:'Coordinador',Inicio:'04/05',Fin:'12/11',Tarea:'Coordinador del area de producción.'}
 ];
 const Works = [
     {Company:'Green Pixel', Position:'Jr. Front-End Developer',Start:'03/17',End:'Currently',Job:'At first I worked as freelance web designer, makeing the layout, UI, Script. Then i have got a full time job and i have started projects with a team, using languages such a HTML5, CSS3 and JS (Ecma6). Nowadays i am in charge of projects that needs skills on frameworks such as React Js. Also a use libraries like Bootstrap, Sweet Alert, Materials UI and etc. I made the deployment and hosting of projects on Vercel and Heroku, by using CLI. To share and to work on team i use Github.'},
     {Company:'Pro Insurance Solutions Ltd',Position:'Consultant Lawyer',Start:'03/20',End:'08/20',Job:'Coordinator of legal Area - ART.'},
     {Company:'CEFER law firm',Position:'Jr. Lawyer',Start:'06/16',End:'03/20',Job:'Jr. Lawyer on an Argentinians firm.'},
-    {Company:'Jean Factory',Position:'Sales',Start:'01/12',End:'03/20',Job:'Seller.'},
+    {Company:'Jean Factory',Position:'Sales',Start:'01/12',End:'05/16',Job:'Seller.'},
     {Company:'Jean Factory',Position:'coordinator',Start:'04/05',End:'12/11',Job:'Coordinator of Factory.'}
     ];
 
